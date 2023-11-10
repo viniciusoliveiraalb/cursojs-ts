@@ -1,1 +1,0 @@
-// Preparando ambiente no Linux
