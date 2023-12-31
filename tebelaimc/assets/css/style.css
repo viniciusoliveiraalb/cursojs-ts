@@ -87,4 +87,13 @@ p{
     border-radius: 0 0 10px 10px;
 }
 
+.paragrafo-resultado, .bad{
+    padding: 10px 20px;
+    background: rgb(17, 250, 17);
+}
+
+.bad{
+    background: rgb(247, 32, 32);
+}
+
 
