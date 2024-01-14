@@ -1,11 +1,18 @@
-const div = document.querySelector('#div');
 const elementos = [
-    {tag: 'p', texto: 'Frase 1'},
-    {tag: 'div', texto: 'Frase 2'},
-    {tag: 'footer', texto: 'Frase 3'},
-    {tag: 'section', texto: 'Frase 4'},
+    {tag: 'p', texto: 'Hoje escrevo page'},
+    {tag: 'div', texto: 'escrevendo...'},
+    {tag: 'footer', texto: 'Cabeçalho'},
+    {tag: 'section', texto: 'Seção'},
 ];
 
-for (let i = 0; i < 4; i++){
-    div.innerHTML += `<${elementos[i].tag}> ${elementos[i].texto} <${elementos[i].tag}/>`
+const container = document.querySelector('.container');
+const div = document.createElement('div');
+
+for (let i = 0; i < elementos.length; i++){
+   let { tag, texto } = elementos[i];
+   let tagCriada = document.createElement(tag);
+   tagCriada.innerHTML = texto;
+   div.appendChild(tagCriada);
 }
+
+container.appendChild(div);
