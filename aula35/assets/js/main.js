@@ -1,7 +1,7 @@
 const elementos = [
     {tag: 'p', texto: 'Hoje escrevo page'},
     {tag: 'div', texto: 'escrevendo...'},
-    {tag: 'footer', texto: 'Cabeçalho'},
+    {tag: 'footer', texto: 'Rodapé'},
     {tag: 'section', texto: 'Seção'},
 ];
 
