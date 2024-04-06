@@ -17,5 +17,5 @@ function fizzBuzz(numero){
 
 console.log('a', fizzBuzz('a'))
 for (let i = 0; i <= 100; i++){
-     console.log(i, fizzBuzz(i))
+     console.log(i, fizzBuzz(i)) 
 }
